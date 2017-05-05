@@ -1,10 +1,14 @@
 <suite name="dataliciousTestSuite">
 <test name = "dataliciousTest">
 <parameter name="browser" value="chrome" />
-<parameter name="pathForFirefoxDriver" value="C:\\Users\\sumit\\Selenium\\geckodriver-v0.14.0-win64\\geckodriver.exe"/>
-<parameter name="pathForChromeDriver" value="/usr/local/bin/chromedriver"/>
-<parameter name="pathForHarLog" value="/Users/sumit/Documents/workspace/datalicious/harlog.txt"/>
+<parameter name="pathForFirefoxDriver" value="PathForGeckodriver"/>
+<parameter name="pathForChromeDriver" value="PathForChromedriver"/>
+<parameter name="pathForHarLog" value="PathForHarLOg"/>
 <parameter name="SearchItem" value="datalicious"/>
+<parameter name="filter_URL_1" value="collect"/>
+<parameter name="filter_URL_2" value="optimahub"/>
+<parameter name="QueryStringName_1" value="dt"/>
+<parameter name="QueryStringName_2" value="de"/>
 <classes>
 <class name ="dataliciousTestCase.dataliciousTest"/>
 </classes>
