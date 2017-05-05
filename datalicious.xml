@@ -1,0 +1,12 @@
+<suite name="dataliciousTestSuite">
+<test name = "dataliciousTest">
+<parameter name="browser" value="chrome" />
+<parameter name="pathForFirefoxDriver" value="C:\\Users\\sumit\\Selenium\\geckodriver-v0.14.0-win64\\geckodriver.exe"/>
+<parameter name="pathForChromeDriver" value="/usr/local/bin/chromedriver"/>
+<parameter name="pathForHarLog" value="/Users/sumit/Documents/workspace/datalicious/harlog4.txt"/>
+<parameter name="SearchItems" value="datalicious"/>
+<classes>
+<class name ="dataliciousTestCase.dataliciousTest"/>
+</classes>
+</test>
+</suite>
