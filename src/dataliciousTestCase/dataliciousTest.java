@@ -26,7 +26,7 @@ public class dataliciousTest {
   @BeforeClass
   @Parameters({"browser","pathForFirefoxDriver","pathForChromeDriver"})
 	public void setup(String browser,String pathForFirefoxDriver,String pathForChromeDriver) throws Exception {
-	  	// start the proxy
+	  	// start the Proxy
 	  if(browser.equalsIgnoreCase("chrome")){
 	    proxy = new BrowserMobProxyServer();
 	    proxy.start(0);

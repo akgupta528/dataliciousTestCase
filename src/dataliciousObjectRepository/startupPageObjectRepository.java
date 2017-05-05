@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 
-// It has all the elements which you are using to click the links
+// It has all the elements which you are using to click the link
 public class startupPageObjectRepository {
 private static WebElement element=null;
 	
